@@ -64,3 +64,36 @@ h2 {
   justify-content: center;
   flex: 1;
 }
+
+p {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.picture-div {
+  text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+  .component-div {
+    flex-direction: column;
+  }
+
+  .picture-div {
+    max-width: 100%!important;
+  }
+
+  img{
+    max-width: 60%!important;
+  }
+}
+
+a {
+  color: rgb(23, 15, 97);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -4,7 +4,7 @@ const Projects: React.FC = () => {
   
   return (
     <div>
-      <h1>Projectssss</h1>
+      <h1>Projects</h1>
     </div>
   );
 }

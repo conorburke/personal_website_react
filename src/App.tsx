@@ -17,7 +17,13 @@ const particlesOptions = {
         enable: true,
         value_area: 1000
       }
-    }
+    },
+    color: {
+      value: "#668daf"
+    },
+    line_linked: {
+      color: "#668daf",
+    },
   }
 }
 
