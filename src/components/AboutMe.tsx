@@ -14,7 +14,7 @@ const AboutMe: React.FC = () => {
             science and artificial intelligence. I work for Booz Allen Hamiltion where I am currently on
             an education leave of absence. My most recent project was working on a big data platform
             and cyber awareness tool for the US Navy at the Space and Naval Warfare Systems
-            Command in San Diego, CA. I worked on that project for 2 and a half years and left in August 
+            Command in San Diego, CA. I worked on that project for 2 and a half years and left in July 2019 
             when my family and I moved to Japan.
           </p>
           <p>
@@ -33,7 +33,7 @@ const AboutMe: React.FC = () => {
           </p>
         </div>
         <div className='picture-div' style={{flex: 1, maxWidth: '50%'}}>
-            <img src={yoda} alt='Yoda.' style={{ maxWidth: '50%', border: '2px solid whitesmoke', borderRadius: '10px'}}/>
+            <img className='me-pic' src={yoda} alt='Yoda.' style={{ maxWidth: '50%', border: '2px solid whitesmoke', borderRadius: '10px'}}/>
         </div>
       </div>
     </div>

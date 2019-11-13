@@ -83,8 +83,12 @@ p {
     max-width: 100%!important;
   }
 
-  img{
+  .me-pic{
     max-width: 60%!important;
+  }
+
+  .project-card {
+    width: '80%'
   }
 }
 

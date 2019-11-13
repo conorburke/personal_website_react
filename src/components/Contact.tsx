@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
           </p>
         </div>
         <div className='picture-div' style={{flex: 1, maxWidth: '100%'}}>
-            <img src={claire} alt='Wife.' style={{ maxWidth: '50%', border: '2px solid whitesmoke', borderRadius: '10px'}}/>
+            <img className='me-pic' src={claire} alt='Wife.' style={{ maxWidth: '50%', border: '2px solid whitesmoke', borderRadius: '10px'}}/>
         </div>
       </div>
     </div>
