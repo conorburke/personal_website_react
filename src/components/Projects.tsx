@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                 Magnetar is a tool renting/loaning platform. Built with a GraphQL Node backend, it has
-                a PWA frontend built with React and TypeScript (as well as a React Native app). Magnetar uses NGINX for load 
+                a PWA frontend built with React/TypeScript (and a React Native app). Magnetar uses NGINX for load 
                 balancing and Postgres for storage. It also incorporates the Stripe API as well as S3 for image
                 storage. Hosted on AWS. I custom wrote all the GraphQL resolvers for full CRUD capabilities.
               </Typography>
@@ -105,10 +105,10 @@ const Projects: React.FC = () => {
                 Walter's Notebook
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Walter's Notebook is a containerized microservice platform. Its main components are an ETL pipeline,
-                API, datastore, and React frontend component. Right now it pulls publicly available fantasy football 
-                spreadsheets, processes and transforms them, and stores them for the API to serve up. It is hosted on
-                AWS and has a CI/CD toolchain that deploys docker containers. The ETL and API are written in Go.
+                Walter's Notebook is a containerized microservice platform. Its main components are an ETL pipeline and
+                API (written in Go), datastore, and React frontend component. It pulls publicly available fantasy football 
+                spreadsheets, processes and transforms them, and stores them for the API to serve. Hosted on
+                AWS, it has a CI/CD toolchain that deploys docker containers.
               </Typography>
             </CardContent>
           </CardActionArea>
