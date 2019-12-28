@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
-import magnetar from '../images/magnetar.png';
+import magnetar from '../images/magnetar_tools_page.png';
 import mancala from '../images/mancala.png';
 import seespotgo from '../images/seespotgo.png';
 import telescopes from '../images/telescopes.png';
@@ -45,9 +45,9 @@ const Projects: React.FC = () => {
                 Magnetar
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Magnetar is a tool renting/loaning platform. Built with a GraphQL Node backend and
-                a React Native Frontend (and simple React landing page), Magnetar uses NGINX for load 
-                balancing and Postgres for storage. It also uses the Stripe API and S3 for image
+                Magnetar is a tool renting/loaning platform. Built with a GraphQL Node backend, it has
+                a PWA frontend built with React and TypeScript (as well as a React Native app). Magnetar uses NGINX for load 
+                balancing and Postgres for storage. It also incorporates the Stripe API as well as S3 for image
                 storage. Hosted on AWS. I custom wrote all the GraphQL resolvers for full CRUD capabilities.
               </Typography>
             </CardContent>
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
               <a href='https://github.com/conorburke/magnetar_platform' target='_blank' rel="noopener noreferrer">Github (Platform)</a>
             </Button>
             <Button size="small" color="primary">
-              <a href='https://github.com/conorburke/magnetar_mobile' target='_blank' rel="noopener noreferrer">Github (App)</a>
+              <a href='https://github.com/conorburke/magnetar_mobile' target='_blank' rel="noopener noreferrer">Github (Mobile)</a>
             </Button>
           </CardActions>
         </Card>
@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
                 Mancala AI
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Mancala AI is a recent project that I am currently developing to implement AI techniques
+                Mancala AI is a recent project built in Python that I am currently developing to implement AI techniques
                 that I am studying. It implements a basic Monte Carlo algorithm to play quasi-random
                 games to figure out the best moves given current game state. I plan to utilize Keras/TensorFlow in order allow it to learn. 
                 Currently the agent I developed beats a novice player 99.8% of the time.
@@ -108,7 +108,7 @@ const Projects: React.FC = () => {
                 Walter's Notebook is a containerized microservice platform. Its main components are an ETL pipeline,
                 API, datastore, and React frontend component. Right now it pulls publicly available fantasy football 
                 spreadsheets, processes and transforms them, and stores them for the API to serve up. It is hosted on
-                AWS and has a CI/CD toolchain that deploys docker containers.
+                AWS and has a CI/CD toolchain that deploys docker containers. The ETL and API are written in Go.
               </Typography>
             </CardContent>
           </CardActionArea>
