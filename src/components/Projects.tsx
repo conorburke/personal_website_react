@@ -79,8 +79,7 @@ const Projects: React.FC = () => {
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                 Mancala AI is a recent project built in Python that I am currently developing to implement AI techniques
-                that I am studying. It implements a basic Monte Carlo algorithm to play quasi-random
-                games to figure out the best moves given current game state. I plan to utilize Keras/TensorFlow in order allow it to learn. 
+                that I am studying. It has agents that implement Alpha-beta pruning / mini-max or a Monte Carlo algorithm to figure out the best moves given current game state. I plan to utilize Keras/TensorFlow in order allow it to learn. 
                 Currently the agent I developed beats a novice player 99.8% of the time.
               </Typography>
             </CardContent>
