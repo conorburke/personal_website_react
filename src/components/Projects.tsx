@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
                 Reloto is an event-based microservice built using Kubernetes, TypeScript, MongoDB, and NATS
-                Streaming Server. It allows users to rent/loan tools and is the newer version of thee Magnetar
+                Streaming Server. It allows users to rent/loan tools and is the newer version of the Magnetar
                 project. It is hosted on Digital Ocean and is in active development. It will soon be reachable by
                 users at the domain reloto.app. It has an associated custom NPM module for shared resources.
               </Typography>
