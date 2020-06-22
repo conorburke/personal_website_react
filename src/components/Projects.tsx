@@ -13,6 +13,7 @@ import mancala from '../images/mancala.png';
 import seespotgo from '../images/seespotgo.png';
 import telescopes from '../images/telescopes.png';
 import walter from '../images/walter.png';
+import blacksmith from '../images/blacksmith.png';
 
 const useStyles = makeStyles({
   card: {
@@ -31,6 +32,39 @@ const Projects: React.FC = () => {
     <div>
       <h1>Projects</h1>
       <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap'}}>
+        <Card className={`${classes.card} project-card`}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              alt="Contemplative Reptile"
+              max-width="100%"
+              image={blacksmith}
+              title="Contemplative Reptile"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Reloto
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Reloto is an event-based microservice built using Kubernetes, TypeScript, MongoDB, and NATS
+                Streaming Server. It allows users to rent/loan tools and is the newer version of thee Magnetar
+                project. It is hosted on Digital Ocean and is in active development. It will soon be reachable by
+                users at the domain reloto.app. It has an associated custom NPM module for shared resources.
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button size="small" color="primary">
+              <a href='https://reloto.app' target='_blank' rel="noopener noreferrer">Website</a>
+            </Button>
+            <Button size="small" color="primary">
+              <a href='https://github.com/conorburke/reloto' target='_blank' rel="noopener noreferrer">Github (Platform)</a>
+            </Button>
+            <Button size="small" color="primary">
+              <a href='https://github.com/conorburke/reloto-common' target='_blank' rel="noopener noreferrer">Github (NPM Module)</a>
+            </Button>
+          </CardActions>
+        </Card>
         <Card className={`${classes.card} project-card`}>
           <CardActionArea>
             <CardMedia
