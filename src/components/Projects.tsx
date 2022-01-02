@@ -14,6 +14,7 @@ import seespotgo from '../images/seespotgo.png';
 import telescopes from '../images/telescopes.png';
 import walter from '../images/walter.png';
 import blacksmith from '../images/blacksmith.png';
+import summersong from '../images/summerson2.png';
 
 const useStyles = makeStyles({
   card: {
@@ -32,6 +33,32 @@ const Projects: React.FC = () => {
     <div>
       <h1>Projects</h1>
       <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap'}}>
+      <Card className={`${classes.card} project-card`}>
+          <CardActionArea>
+            <CardMedia
+              component="img"
+              alt="Summersong Diagram"
+              max-width="100%"
+              image={summersong}
+              title="Summersong"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Summersong
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Summersong is a data analytics and processing platform. It creates predictive data models 
+                based on custom data sets. It is written primarily in Java (Spring Boot) and Python, and leverages
+                Docker, Kafka, Redis, and multiple AWS resources.
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button size="small" color="primary">
+              <a href='https://www.youtube.com/embed/I9tnzZ_z-PQ' target='_blank' rel="noopener noreferrer">Video Demo</a>
+            </Button>
+          </CardActions>
+        </Card>
         <Card className={`${classes.card} project-card`}>
           <CardActionArea>
             <CardMedia
