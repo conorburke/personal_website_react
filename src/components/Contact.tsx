@@ -16,10 +16,7 @@ const Contact: React.FC = () => {
               <a href="mailto:cjburke89@gmail.com" style={{fontWeight: 'bold', color: 'white'}}> cjburke89@gmail.com</a>.
           </p>
           <p>
-          Having just completed my MSCS from Georgia Tech, my family and I will be moving to the
-            northern Virginia area in March 2022 and I will be looking to start a new job at that point.
-            I am interested in full time positions, ideally that are cleared and involve working with big data.
-            I am particularly interested in aerospace companies and/or positions that involve cloud and containerization technologies. 
+          I am not currently looking for a job but I value continual networking so please feel free to connect.
           </p> 
         </div>
         <div className='picture-div' style={{flex: 1, maxWidth: '50%'}}>
